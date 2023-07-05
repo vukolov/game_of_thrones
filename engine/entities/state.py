@@ -31,3 +31,6 @@ class State:
             if player.is_active():
                 active_players.append(player)
         return active_players
+
+    def wait_for_players(self):
+        ...

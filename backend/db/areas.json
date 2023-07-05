@@ -1,0 +1,1017 @@
+{
+  "lands": {
+    "castle_black": {
+      "name": {
+        "en": "Castle Black",
+        "ru": "Чёрный замок"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "karhold",
+        "winterfell"
+      ],
+      "neighbor_seas": [
+        "shivering_sea",
+        "bay_of_ice"
+      ]
+    },
+    "karhold": {
+      "name": {
+        "en": "Karhold",
+        "ru": "Кархолд"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "winterfell",
+        "castle_black"
+      ],
+      "neighbor_seas": [
+        "shivering_sea"
+      ]
+    },
+    "winterfell": {
+      "name": {
+        "en": "Winterfell",
+        "ru": "Винтерфелл"
+      },
+      "homeland": "stark",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [
+        {
+          "sea": "bay_of_ice"
+        }
+      ],
+      "neighbor_lands": [
+        "castle_black",
+        "karhold",
+        "white_harbor",
+        "stony_shore",
+        "moat_cailin"
+      ],
+      "neighbor_seas": [
+        "shivering_sea",
+        "bay_of_ice"
+      ]
+    },
+    "stony_shore": {
+      "name": {
+        "en": "The Stony Shore",
+        "ru": "Каменный Берег"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "winterfell"
+      ],
+      "neighbor_seas": [
+        "bay_of_ice"
+      ]
+    },
+    "white_harbor": {
+      "name": {
+        "en": "White Harbor",
+        "ru": "Белая Гавань"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [
+        {
+            "sea": "narrow_sea"
+        }
+      ],
+      "neighbor_lands": [
+        "winterfell",
+        "moat_cailin",
+        "widows_watch"
+      ],
+      "neighbor_seas": [
+        "shivering_sea",
+        "narrow_sea"
+      ]
+    },
+    "widows_watch": {
+      "name": {
+        "en": "Widow's Watch",
+        "ru": "Вдовий Дозор"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "white_harbor"
+      ],
+      "neighbor_seas": [
+        "shivering_sea",
+        "narrow_sea"
+      ]
+    },
+    "flints_finger": {
+      "name": {
+        "en": "Flint's Finger",
+        "ru": "Кремень"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [],
+      "neighbor_lands": [
+        "greywater_watch"
+      ],
+      "neighbor_seas": [
+        "bay_of_ice",
+        "blazewater_bay",
+        "ironmans_bay"
+      ]
+    },
+    "greywater_watch": {
+      "name": {
+        "en": "Greywater Watch",
+        "ru": "Сероводье"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "flints_finger",
+        "moat_cailin",
+        "seagard"
+      ],
+      "neighbor_seas": [
+        "bay_of_ice",
+        "ironmans_bay"
+      ]
+    },
+    "moat_cailin": {
+      "name": {
+        "en": "Moat Cailin",
+        "ru": "Ров Кейлин"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [],
+      "neighbor_lands": [
+        "winterfell",
+        "white_harbor",
+        "greywater_watch",
+        "seagard",
+        "twins"
+      ],
+      "neighbor_seas": [
+        "narrow_sea"
+      ]
+    },
+    "seagard": {
+      "name": {
+        "en": "Seagard",
+        "ru": "Сигард"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "greywater_watch",
+        "moat_cailin",
+        "twins",
+        "riverrun"
+      ],
+      "neighbor_seas": [
+        "ironmans_bay"
+      ]
+    },
+    "twins": {
+      "name": {
+        "en": "The Twins",
+        "ru": "Близнецы"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "moat_cailin",
+        "seagard",
+        "mountains_of_the_moon",
+        "fingers"
+      ],
+      "neighbor_seas": [
+        "narrow_sea"
+      ]
+    },
+    "fingers": {
+      "name": {
+        "en": "The Fingers",
+        "ru": "Персты"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "twins",
+        "mountains_of_the_moon"
+      ],
+      "neighbor_seas": [
+        "narrow_sea"
+      ]
+    },
+    "riverrun": {
+      "name": {
+        "en": "Riverrun",
+        "ru": "Риверран"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "seagard",
+        "lannisport",
+        "stoney_sept",
+        "harrenhal"
+      ],
+      "neighbor_seas": [
+        "ironmans_bay",
+        "golden_sound"
+      ]
+    },
+    "mountains_of_the_moon": {
+      "name": {
+        "en": "Mountains of the Moon",
+        "ru": "Лунные горы"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "twins",
+        "fingers",
+        "eyrie",
+        "cracklaw_point"
+      ],
+      "neighbor_seas": [
+        "narrow_sea"
+      ]
+    },
+    "eyrie": {
+      "name": {
+        "en": "The Eyrie",
+        "ru": "Орлиное гнездо"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [],
+      "neighbor_lands": [
+        "mountains_of_the_moon"
+      ],
+      "neighbor_seas": [
+        "narrow_sea"
+      ]
+    },
+    "lannisport": {
+      "name": {
+        "en": "Lannisport",
+        "ru": "Ланниспорт"
+      },
+      "homeland": "lannister",
+      "crowns": 0,
+      "barrels": 2,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [
+        {
+          "sea": "golden_sound"
+        }
+      ],
+      "neighbor_lands": [
+        "riverrun",
+        "stoney_sept",
+        "searod_marches"
+      ],
+      "neighbor_seas": [
+        "golden_sound"
+      ]
+    },
+    "stoney_sept": {
+      "name": {
+        "en": "Stoney Sept",
+        "ru": "Каменная Септа"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "lannisport",
+        "riverrun",
+        "harrenhal",
+        "searod_marches",
+        "blackwater"
+      ],
+      "neighbor_seas": [
+      ]
+    },
+    "harrenhal": {
+      "name": {
+        "en": "Harrenhal",
+        "ru": "Харренхол"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [],
+      "neighbor_lands": [
+        "riverrun",
+        "stoney_sept",
+        "blackwater",
+        "cracklaw_point"
+      ],
+      "neighbor_seas": [
+      ]
+    },
+    "cracklaw_point": {
+      "name": {
+        "en": "Cracklaw Point",
+        "ru": "Клешня"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [],
+      "neighbor_lands": [
+        "mountains_of_the_moon",
+        "harrenhal",
+        "blackwater",
+        "kings_landing"
+      ],
+      "neighbor_seas": [
+        "narrow_sea",
+        "blackwater_bay",
+        "shipbreaker_bay"
+      ]
+    },
+    "searod_marches": {
+      "name": {
+        "en": "Searoad Marches",
+        "ru": "Приморские Марки"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "lannisport",
+        "stoney_sept",
+        "blackwater",
+        "cider_hall",
+        "highgarden"
+      ],
+      "neighbor_seas": [
+        "golden_sound",
+        "sunset_sea",
+        "west_summer_sea"
+      ]
+    },
+    "blackwater": {
+      "name": {
+        "en": "Blackwater",
+        "ru": "Черноводная"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 2,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "stoney_sept",
+        "harrenhal",
+        "cracklaw_point",
+        "searod_marches",
+        "kings_landing",
+        "cider_hall"
+      ],
+      "neighbor_seas": [
+      ]
+    },
+    "kings_landing": {
+      "name": {
+        "en": "King's Landing",
+        "ru": "Королевская Гавань"
+      },
+      "homeland": "",
+      "crowns": 2,
+      "barrels": 0,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "cracklaw_point",
+        "blackwater",
+        "cider_hall",
+        "kingswood"
+      ],
+      "neighbor_seas": [
+        "blackwater_bay"
+      ]
+    },
+    "highgarden": {
+      "name": {
+        "en": "Highgarden",
+        "ru": "Хайгарден"
+      },
+      "homeland": "tyrell",
+      "crowns": 0,
+      "barrels": 2,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "searod_marches",
+        "cider_hall",
+        "oldtown",
+        "dornish_marches"
+      ],
+      "neighbor_seas": [
+        "west_summer_sea",
+        "redwyne_straits"
+      ]
+    },
+    "cyder_hall": {
+      "name": {
+        "en": "Cyser Hall",
+        "ru": "Простор"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [],
+      "neighbor_lands": [
+        "blackwater",
+        "kings_landing",
+        "highgarden",
+        "kingswood",
+        "boneway",
+        "dornish_marches",
+        "searod_marches"
+      ],
+      "neighbor_seas": [
+      ]
+    },
+    "kings_wood": {
+      "name": {
+        "en": "King's Wood",
+        "ru": "Королевский Лес"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "kings_landing",
+        "cyder_hall",
+        "boneway",
+        "storms_end"
+      ],
+      "neighbor_seas": [
+        "blackwater_bay",
+        "shipbreaker_bay"
+      ]
+    },
+    "storms_end": {
+      "name": {
+        "en": "Storm's End",
+        "ru": "Штормовой Предел"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [
+        {
+          "sea": "shipbreaker_bay"
+        }
+      ],
+      "neighbor_lands": [
+        "boneway",
+        "kings_wood"
+      ],
+      "neighbor_seas": [
+        "shipbreaker_bay",
+        "sea_of_dorne",
+        "east_summer_sea"
+      ]
+    },
+    "oldtown": {
+      "name": {
+        "en": "Oldtown",
+        "ru": "Старомест"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 0,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [
+        {
+          "sea": "redwyne_straits"
+        }
+      ],
+      "neighbor_lands": [
+        "highgarden",
+        "dornish_marches",
+        "three_towers"
+      ],
+      "neighbor_seas": [
+        "redwyne_straits"
+      ]
+    },
+    "dornish_marches": {
+      "name": {
+        "en": "Dornish Marches",
+        "ru": "Дорнские Марки"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "highgarden",
+        "cyder_hall",
+        "boneway",
+        "oldtown",
+        "three_towers",
+        "princes_pass"
+      ],
+      "neighbor_seas": [
+      ]
+    },
+    "boneway": {
+      "name": {
+        "en": "Boneway",
+        "ru": "Костяной путь"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "cyder_hall",
+        "kings_wood",
+        "storms_end",
+        "dornish_marches",
+        "princes_pass",
+        "yronwood"
+      ],
+      "neighbor_seas": [
+        "sea_of_dorne"
+      ]
+    },
+    "three_towers": {
+      "name": {
+        "en": "Three Towers",
+        "ru": "Три Башни"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "oldtown",
+        "dornish_marches",
+        "princes_pass"
+      ],
+      "neighbor_seas": [
+        "redwyne_straits",
+        "west_summer_sea"
+      ]
+    },
+    "princes_pass": {
+      "name": {
+        "en": "Prince's Pass",
+        "ru": "Принцев Перевал"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "dornish_marches",
+        "boneway",
+        "three_towers",
+        "yronwood",
+        "starfall"
+      ],
+      "neighbor_seas": [
+      ]
+    },
+    "starfall": {
+      "name": {
+        "en": "Starfall",
+        "ru": "Звездопад"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [],
+      "neighbor_lands": [
+        "princes_pass",
+        "yronwood",
+        "salt_shore"
+      ],
+      "neighbor_seas": [
+        "west_summer_sea",
+        "east_summer_sea"
+      ]
+    },
+    "yronwood": {
+      "name": {
+        "en": "Yronwood",
+        "ru": "Айронвуд"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 1,
+      "ports": [],
+      "neighbor_lands": [
+        "boneway",
+        "princes_pass",
+        "starfall",
+        "salt_shore",
+        "sunspear"
+      ],
+      "neighbor_seas": [
+        "sea_of_dorne"
+      ]
+    },
+    "salt_shore": {
+      "name": {
+        "en": "Salt Shore",
+        "ru": "Солёный берег"
+      },
+      "homeland": "",
+      "crowns": 0,
+      "barrels": 1,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+        "starfall",
+        "yronwood",
+        "sunspear"
+      ],
+      "neighbor_seas": [
+        "east_summer_sea"
+      ]
+    },
+    "sunspear": {
+      "name": {
+        "en": "Sunspear",
+        "ru": "Солнечное Копьё"
+      },
+      "homeland": "martell",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [
+        {
+          "sea": "east_summer_sea"
+        }
+      ],
+      "neighbor_lands": [
+        "yronwood",
+        "salt_shore"
+      ],
+      "neighbor_seas": [
+        "sea_of_dorne",
+        "east_summer_sea"
+      ]
+    },
+    "pyke": {
+      "name": {
+        "en": "Pyke",
+        "ru": "Пайк"
+      },
+      "homeland": "greyjoy",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [
+        {
+          "sea": "ironmans_bay"
+        }
+      ],
+      "neighbor_lands": [
+      ],
+      "neighbor_seas": [
+        "ironmans_bay"
+      ]
+    },
+    "dragonstone": {
+      "name": {
+        "en": "Dragonstone",
+        "ru": "Драконий Камень"
+      },
+      "homeland": "baratheon",
+      "crowns": 1,
+      "barrels": 1,
+      "strongholds": 1,
+      "castles": 0,
+      "ports": [
+        {
+          "sea": "shipbreaker_bay"
+        }
+      ],
+      "neighbor_lands": [
+      ],
+      "neighbor_seas": [
+        "shipbreaker_bay"
+      ]
+    },
+    "arbor": {
+      "name": {
+        "en": "The Arbor",
+        "ru": "Арбор"
+      },
+      "homeland": "",
+      "crowns": 1,
+      "barrels": 0,
+      "strongholds": 0,
+      "castles": 0,
+      "ports": [],
+      "neighbor_lands": [
+      ],
+      "neighbor_seas": [
+        "redwyne_straits",
+        "west_summer_sea"
+      ]
+    }
+  },
+  "seas": {
+    "bay_of_ice": {
+      "name": {
+        "en": "Bay of Ice",
+        "ru": "Ледовый Залив"
+      },
+      "neighbor_lands": [
+        "castle_black",
+        "winterfell",
+        "stony_shore",
+        "greywater_watch",
+        "flints_finger"
+      ],
+      "neighbor_seas": [
+        "sunset_sea"
+      ]
+    },
+    "sunset_sea": {
+      "name": {
+        "en": "Sunset Sea",
+        "ru": "Закатное Море"
+      },
+      "neighbor_lands": [
+        "flints_finger",
+        "searoad_marches"
+      ],
+      "neighbor_seas": [
+        "bay_of_ice",
+        "ironmans_bay",
+        "west_summer_sea",
+        "golden_sound"
+      ]
+    },
+    "ironmans_bay": {
+      "name": {
+        "en": "Ironman's Bay",
+        "ru": "Залив Железных Людей"
+      },
+      "neighbor_lands": [
+        "flints_finger",
+        "greywater_watch",
+        "seagard",
+        "riverrun",
+        "pyke"
+      ],
+      "neighbor_seas": [
+        "sunset_sea",
+        "golden_sound"
+      ]
+    },
+    "golden_sound": {
+      "name": {
+        "en": "The Golden Sound",
+        "ru": "Золотой Пролив"
+      },
+      "neighbor_lands": [
+        "riverrun",
+        "lannisport",
+        "searoad_marches"
+      ],
+      "neighbor_seas": [
+        "ironmans_bay",
+        "sunset_sea"
+      ]
+    },
+    "west_summer_sea": {
+      "name": {
+        "en": "West Summer Sea",
+        "ru": "Западное Летнее Море"
+      },
+      "neighbor_lands": [
+        "searoad_marches",
+        "highgarden",
+        "three_towers",
+        "starfall"
+      ],
+      "neighbor_seas": [
+        "sunset_sea",
+        "redwyne_straits",
+        "east_summer_sea"
+      ]
+    },
+    "redwyne_straights": {
+      "name": {
+        "en": "Redwyne Straights",
+        "ru": "Пролив Рэдвин"
+      },
+      "neighbor_lands": [
+        "highgarden",
+        "oldtown",
+        "three_towers"
+      ],
+      "neighbor_seas": [
+        "west_summer_sea"
+      ]
+    },
+    "east_summer_sea": {
+      "name": {
+        "en": "East Summer Sea",
+        "ru": "Восточное Летнее Море"
+      },
+      "neighbor_lands": [
+        "starfall",
+        "salt_shore",
+        "sunspear"
+      ],
+      "neighbor_seas": [
+        "west_summer_sea",
+        "sea_of_dorne",
+        "shipbreaker_bay"
+      ]
+    },
+    "sea_of_dorne": {
+      "name": {
+        "en": "Sea of Dorne",
+        "ru": "Дорнское Море"
+      },
+      "neighbor_lands": [
+        "storms_end",
+        "boneway",
+        "yronwood",
+        "sunspear"
+      ],
+      "neighbor_seas": [
+        "east_summer_sea"
+      ]
+    },
+    "shipbreaker_bay": {
+      "name": {
+        "en": "Shipbreaker Bay",
+        "ru": "Губительные Валы"
+      },
+      "neighbor_lands": [
+        "storms_end",
+        "crackclaw_point",
+        "kings_landing",
+        "dragonstone"
+      ],
+      "neighbor_seas": [
+        "west_summer_sea",
+        "blackwater_bay",
+        "narrow_sea"
+      ]
+    },
+    "blackwater_bay": {
+      "name": {
+        "en": "Blackwater Bay",
+        "ru": "Черноводный Залив"
+      },
+      "neighbor_lands": [
+        "kings_landing",
+        "crackclaw_point",
+        "kingswood"
+      ],
+      "neighbor_seas": [
+        "shipbreaker_bay"
+      ]
+    },
+    "narrow_sea": {
+      "name": {
+        "en": "The Narrow Sea",
+        "ru": "Узкое Море"
+      },
+      "neighbor_lands": [
+        "widows_watch",
+        "white_harbor",
+        "moat_cailin",
+        "twins",
+        "fingers",
+        "mountains_of_the_moon",
+        "eyrie",
+        "crackclaw_point"
+      ],
+      "neighbor_seas": [
+        "shiverring_sea",
+        "shipbreaker_bay"
+      ]
+    },
+    "shivering_sea": {
+      "name": {
+        "en": "The Shivering Sea",
+        "ru": "Дрожащее Море"
+      },
+      "neighbor_lands": [
+        "castle_black",
+        "karhold",
+        "white_harbor",
+        "widows_watch",
+        "winterfell"
+      ],
+      "neighbor_seas": [
+        "narrows_sea"
+      ]
+    }
+  }
+}

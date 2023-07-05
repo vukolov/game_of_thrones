@@ -1,0 +1,72 @@
+[
+  {
+    "leader_name": {
+      "en": "Eddard Stark",
+      "ru": "Эддард Старк"
+    },
+    "combat_strength": 4,
+    "text_ability": "",
+    "swords_icon_num": 2,
+    "fortification_icons_num": 0
+  },
+  {
+    "leader_name": {
+      "en": "",
+      "ru": ""
+    },
+    "combat_strength": 1,
+    "text_ability": "",
+    "swords_icon_num": 0,
+    "fortification_icons_num": 0
+  },
+  {
+    "leader_name": {
+      "en": "",
+      "ru": ""
+    },
+    "combat_strength": 1,
+    "text_ability": "",
+    "swords_icon_num": 0,
+    "fortification_icons_num": 0
+  },
+  {
+    "leader_name": {
+      "en": "",
+      "ru": ""
+    },
+    "combat_strength": 1,
+    "text_ability": "",
+    "swords_icon_num": 0,
+    "fortification_icons_num": 0
+  },
+  {
+    "leader_name": {
+      "en": "",
+      "ru": ""
+    },
+    "combat_strength": 1,
+    "text_ability": "",
+    "swords_icon_num": 0,
+    "fortification_icons_num": 0
+  },
+  {
+    "leader_name": {
+      "en": "",
+      "ru": ""
+    },
+    "combat_strength": 1,
+    "text_ability": "",
+    "swords_icon_num": 0,
+    "fortification_icons_num": 0
+  },
+  {
+    "leader_name": {
+      "en": "",
+      "ru": ""
+    },
+    "combat_strength": 1,
+    "text_ability": "",
+    "swords_icon_num": 0,
+    "fortification_icons_num": 0
+  }
+]

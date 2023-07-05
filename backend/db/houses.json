@@ -1,0 +1,28 @@
+{
+  "stark": {
+    "name": {
+      "en": "Stark",
+      "ru": "Старк"
+    },
+    "lannister": {
+      "en": "Lannister",
+      "ru": "Ланнистер"
+    },
+    "grayjoy": {
+      "en": "Grayjoy",
+      "ru": "Грейджой"
+    },
+    "baratheon": {
+      "en": "Baratheon",
+      "ru": "Баратеон"
+    },
+    "tyrell": {
+      "en": "Tyrell",
+      "ru": "Тирелл"
+    },
+    "martell": {
+      "en": "Martell",
+      "ru": "Мартелл"
+    }
+  }
+}

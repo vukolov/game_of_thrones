@@ -1,4 +1,4 @@
-class Phase():
+class Phase:
     def __init__(self):
         self._number = 0
 
