@@ -1,9 +1,8 @@
 class RoundsTrack extends Track {
-    cellWidth = 88;
-    firstCellOffset = 48;
-    roundNum = 1;
-    totalRounds = 10;
     constructor(ctx, x, y) {
+        let totalRounds = 10;
+        let firstCellOffset = 48;
+        let cellWidth = 88;
         let roundsTrackImg = new Image();
         let roundMarkerImg = new Image();
         roundsTrackImg.src = "img/rounds_track.jpg";
@@ -12,10 +11,22 @@ class RoundsTrack extends Track {
         let trackHeight = 230;
         let markerWidth = 100;
         let markerHeight = 150;
-        super(ctx, x, y, roundsTrackImg, roundMarkerImg, trackWidth, trackHeight, markerWidth, markerHeight);
-        for (let i = 0; i < this.totalRounds; i++) {
-            this.markerPositionCoords.push([this.firstCellOffset + this.cellWidth * i, 100]);
+        let markerPositionCoords = [];
+        for (let i = 0; i < totalRounds; i++) {
+            markerPositionCoords.push([firstCellOffset + cellWidth * i, 100]);
         }
-        this.marketTmpPositionCoords = this.markerPositionCoords[this.roundNum - 1];
+        let markers = {
+            "round_marker": new Marker(markerWidth, markerHeight, roundMarkerImg, markerPositionCoords)
+        }
+        super(ctx, x, y, roundsTrackImg, trackWidth, trackHeight, markers);
+
+        this.roundNum = 1;
+        this.totalRounds = totalRounds;
+    }
+
+    nextRound() {
+        if (this.roundNum < this.totalRounds) {
+            this.roundNum += 1;
+        }
     }
 }

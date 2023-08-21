@@ -19,7 +19,7 @@ window.onload = function() {
   let roundsTrack = new RoundsTrack(ctx,
       tableBorder * 2 + boardWidth,
       tableBorder + influenceTrackHeight);
-  let castlesStarkTrack = new CastleStarkTrack(ctx,
+  let castlesTrack = new CastlesTrack(ctx,
       tableBorder * 2 + boardWidth,
       tableBorder + influenceTrackHeight + 230);
 
@@ -27,12 +27,24 @@ window.onload = function() {
   ctx.drawImage(boardImg, tableBorder, tableBorder, boardWidth, boardHeight);
   ctx.drawImage(influenceTrackImg, tableBorder * 2 + boardWidth, tableBorder, influenceTrackWidth, influenceTrackHeight);
   roundsTrack.draw();
-  castlesStarkTrack.draw();
+  castlesTrack.draw();
 
   document.getElementById("next_round").addEventListener("click", () => {
-    if (roundsTrack.roundNum < roundsTrack.totalRounds) {
-      roundsTrack.roundNum++;
+    roundsTrack.nextRound();
+    roundsTrack.moveMarker('round_marker',roundsTrack.roundNum - 1);
+  });
+
+  document.getElementById("move_stark_castle").addEventListener("click", () => {
+    if (castlesTrack.starkPosition < castlesTrack.totalCells) {
+        castlesTrack.starkPosition++;
     }
-    roundsTrack.moveMarker(roundsTrack.roundNum - 1);
+    castlesTrack.moveMarker('stark', castlesTrack.starkPosition - 1);
+  });
+
+  document.getElementById("move_baratheon_castle").addEventListener("click", () => {
+    if (castlesTrack.baratheonPosition < castlesTrack.totalCells) {
+        castlesTrack.baratheonPosition++;
+    }
+    castlesTrack.moveMarker('baratheon', castlesTrack.baratheonPosition - 1);
   });
 };
