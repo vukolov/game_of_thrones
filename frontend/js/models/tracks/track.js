@@ -39,13 +39,23 @@ class Track {
         }
     }
 
+    static createMarker(imgPath, markerWidth, markerHeight, firstCellOffsets, cellWidth, totalCells) {
+        let markerImg = new Image();
+        markerImg.src = imgPath
+        let markerPositionCoords = [];
+        for (let i = 0; i < totalCells; i++) {
+            markerPositionCoords.push([firstCellOffsets[0] + cellWidth * i, firstCellOffsets[1]]);
+        }
+        return new Marker(markerWidth, markerHeight, markerImg, markerPositionCoords)
+    }
+
     moveMarker(markerName, toCellNum) {
         this.markers[markerName].cellNum = toCellNum;
         this.interval = setInterval(() => {
             this.clear();
             this.draw();
             this.updateTmpCoords(markerName);
-        }, 30);
+        }, 10);
     }
 
     clear() {

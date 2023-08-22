@@ -2,26 +2,20 @@ class CastlesTrack extends Track {
     constructor(ctx, x, y) {
         let totalCells = 7;
         let cellWidth = 135;
-        let firstCellOffset = 54;
+        let firstCellOffsets = {
+            'stark': [45, 80],
+            'baratheon': [65, 120],
+        }
         let victoryTrackImg = new Image();
-        victoryTrackImg.src = "img/victory_track.jpg";
+        victoryTrackImg.src = "img/tracks/victory.jpg";
         let trackWidth = 1000;
         let trackHeight = 240;
         let markerWidth = 74;
         let markerHeight = 62;
 
-        let createMarker = function (imgPath, markerWidth, markerHeight, firstCellOffset, cellWidth, totalCells) {
-            let starkImg = new Image();
-            starkImg.src = imgPath
-            let markerPositionCoords = [];
-            for (let i = 0; i < totalCells; i++) {
-                markerPositionCoords.push([firstCellOffset + cellWidth * i, 100]);
-            }
-            return new Marker(markerWidth, markerHeight, starkImg, markerPositionCoords)
-        }
         let markers = {
-            "stark": createMarker("img/castles/stark.png", markerWidth, markerHeight, firstCellOffset, cellWidth, totalCells),
-            "baratheon": createMarker("img/castles/baratheon.png", markerWidth, markerHeight, firstCellOffset, cellWidth, totalCells)
+            "stark": Track.createMarker("img/castles/stark.png", markerWidth, markerHeight, firstCellOffsets['stark'], cellWidth, totalCells),
+            "baratheon": Track.createMarker("img/castles/baratheon.png", markerWidth, markerHeight, firstCellOffsets['baratheon'], cellWidth, totalCells)
         }
         super(ctx, x, y, victoryTrackImg, trackWidth, trackHeight, markers);
 

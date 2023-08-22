@@ -10,10 +10,12 @@ window.onload = function() {
   let tableImg = new Image();
   let boardImg = new Image();
   let influenceTrackImg = new Image();
+  let supplyTrackImg = new Image();
 
   tableImg.src = "img/table.jpg";
   boardImg.src = "img/board.png";
-  influenceTrackImg.src = "img/influence_track.jpg";
+  influenceTrackImg.src = "img/tracks/influence.jpg";
+  supplyTrackImg.src = "img/tracks/supply.jpg";
 
 
   let roundsTrack = new RoundsTrack(ctx,
@@ -21,13 +23,17 @@ window.onload = function() {
       tableBorder + influenceTrackHeight);
   let castlesTrack = new CastlesTrack(ctx,
       tableBorder * 2 + boardWidth,
-      tableBorder + influenceTrackHeight + 230);
+      tableBorder + influenceTrackHeight + 240);
+  let supplyTrack = new SupplyTrack(ctx,
+      tableBorder * 2 + boardWidth,
+      tableBorder + influenceTrackHeight + 480);
 
   ctx.drawImage(tableImg, 0, 0, canvas.width, canvas.height);
   ctx.drawImage(boardImg, tableBorder, tableBorder, boardWidth, boardHeight);
-  ctx.drawImage(influenceTrackImg, tableBorder * 2 + boardWidth, tableBorder, influenceTrackWidth, influenceTrackHeight);
+  //ctx.drawImage(influenceTrackImg, tableBorder * 2 + boardWidth, tableBorder, influenceTrackWidth, influenceTrackHeight);
   roundsTrack.draw();
   castlesTrack.draw();
+  supplyTrack.draw();
 
   document.getElementById("next_round").addEventListener("click", () => {
     roundsTrack.nextRound();
