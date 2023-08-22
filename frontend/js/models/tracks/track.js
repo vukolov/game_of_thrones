@@ -55,7 +55,7 @@ class Track {
             this.clear();
             this.draw();
             this.updateTmpCoords(markerName);
-        }, 10);
+        }, 5);
     }
 
     clear() {
