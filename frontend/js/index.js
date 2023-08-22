@@ -1,8 +1,7 @@
 const boardWidth = 1360;
 const boardHeight = 2600;
 const tableBorder = 10;
-const influenceTrackWidth = 1000;
-const influenceTrackHeight = 400;
+const influenceTrackHeight = 420;
 
 window.onload = function() {
   const canvas = document.getElementById("table");
@@ -17,7 +16,15 @@ window.onload = function() {
   influenceTrackImg.src = "img/tracks/influence.jpg";
   supplyTrackImg.src = "img/tracks/supply.jpg";
 
-
+  let ironThroneTrack = new IronThroneTrack(ctx,
+      tableBorder * 2 + boardWidth,
+      tableBorder);
+  let fiefdomsTrack = new FiefdomsTrack(ctx,
+      tableBorder * 2 + boardWidth,
+      tableBorder + 140);
+  let kingsCourtTrack = new KingsCourtTrack(ctx,
+      tableBorder * 2 + boardWidth,
+      tableBorder + 260);
   let roundsTrack = new RoundsTrack(ctx,
       tableBorder * 2 + boardWidth,
       tableBorder + influenceTrackHeight);
@@ -31,6 +38,7 @@ window.onload = function() {
   ctx.drawImage(tableImg, 0, 0, canvas.width, canvas.height);
   ctx.drawImage(boardImg, tableBorder, tableBorder, boardWidth, boardHeight);
   //ctx.drawImage(influenceTrackImg, tableBorder * 2 + boardWidth, tableBorder, influenceTrackWidth, influenceTrackHeight);
+  ironThroneTrack.draw();
   roundsTrack.draw();
   castlesTrack.draw();
   supplyTrack.draw();
