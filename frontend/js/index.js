@@ -12,10 +12,13 @@ window.onload = function() {
   let supplyTrackImg = new Image();
 
   tableImg.src = "img/table.jpg";
-  boardImg.src = "img/board.png";
+  boardImg.src = "img/board.jpg";
   influenceTrackImg.src = "img/tracks/influence.jpg";
   supplyTrackImg.src = "img/tracks/supply.jpg";
 
+  let wildingsTrack = new WildingsTrack(ctx,
+        tableBorder,
+          tableBorder);
   let ironThroneTrack = new IronThroneTrack(ctx,
       tableBorder * 2 + boardWidth,
       tableBorder);
@@ -30,14 +33,15 @@ window.onload = function() {
       tableBorder + influenceTrackHeight);
   let castlesTrack = new CastlesTrack(ctx,
       tableBorder * 2 + boardWidth,
-      tableBorder + influenceTrackHeight + 240);
+      tableBorder + influenceTrackHeight + 230);
   let supplyTrack = new SupplyTrack(ctx,
       tableBorder * 2 + boardWidth,
       tableBorder + influenceTrackHeight + 480);
 
   ctx.drawImage(tableImg, 0, 0, canvas.width, canvas.height);
-  ctx.drawImage(boardImg, tableBorder, tableBorder, boardWidth, boardHeight);
+  ctx.drawImage(boardImg, tableBorder, tableBorder + 185, boardWidth, boardHeight);
   //ctx.drawImage(influenceTrackImg, tableBorder * 2 + boardWidth, tableBorder, influenceTrackWidth, influenceTrackHeight);
+  wildingsTrack.draw();
   ironThroneTrack.draw();
   roundsTrack.draw();
   castlesTrack.draw();
