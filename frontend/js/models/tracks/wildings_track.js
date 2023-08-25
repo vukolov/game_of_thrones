@@ -17,7 +17,7 @@ class WildingsTrack extends Track {
 
         this.level = 0;
         this.totalLevels = totalLevels;
-        this.moveMarker('wildings_marker', 6);
+        //this.moveMarker('wildings_marker', 6);
     }
 
     nextLevel() {
